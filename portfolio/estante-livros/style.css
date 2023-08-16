@@ -1,0 +1,182 @@
+html {
+    /* Sua visualização do scroll */
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background */
+    background-color: #D5CCC7;
+
+    /* Texto */
+    color: #261C1A;
+    text-align: justify;
+
+    /* Alinhamento e Tamanho */
+    /* 1 rem=16px, tela grande = font-size: 16px, tela media = font-size: 15px, telas pequenas (smartphones) = font-size = 14px  */
+    width: 100%;
+    margin: auto;
+}
+
+/* Seção de livros */
+section {
+    padding: 64px 256px;
+    /* padding-left: 256px;
+    padding-right: 256px;
+    padding-bottom: 64px;
+    padding-top: 64px; */
+}
+
+/* Tabela */
+table {
+    /* largura */
+    width: 100%;
+}
+
+td {
+    /* background */
+    background-color: #261C1A;
+
+}
+
+td,
+th {
+    /* Borda no formato shordhand */
+    border: black solid 1px;
+    border-radius: 4px;
+    /* Alinhamento do texto */
+    text-align: center;
+}
+
+tr {
+    /* background */
+    background-color: #261C1A;
+
+}
+
+/* Título, Texto e Parágrafos */
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    height: 35px;
+}
+
+h3 {
+    color: #000;
+
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    background-color: #D5CCC7;
+}
+
+tr {
+    background-color: #ADA0A2;
+}
+
+
+/* inks */
+a:link {
+    color: #D5CCC7;
+    /* Link Normal */
+}
+
+a:visited {
+    /* Link Visitado */
+    color: #ADA0A2;
+}
+
+a:hover {
+    /* Mouse sobre o Link */
+    color: #AC8F83;
+}
+
+a:active {
+    /* Link selecionado */
+    color: #261C1A;
+}
+
+/* Imagem */
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/* Classes e IDs */
+.bookTitle {
+    /* background-size: cover;
+    text-align: justify;
+    width: 75%; */
+    /* height: 25%x; */
+    border-radius: 99%;
+    
+}
+
+#bookOdd {
+    background-color: #D5CCC7;
+    color: #261C1A;
+}
+
+#bookPair {
+    background-color: #261C1A;
+    color: #D5CCC7;
+}
+
+
+#sectionOne,
+#sectionThree,
+#sectionFive {
+    background-color: #AC8F83;
+}
+
+/* #sectionTwo,
+#sectionFour {
+    background-color: #261C1A;
+    color: #AC8F83
+}
+#synopsisDifCollor {
+    background-color: #261C1A;
+    color: #ADA0A2; */
+
+
+#header {
+    background-color: #261C1A;
+    color: #AC8F83;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+
+#sumary {
+    background-color: #261C1A;
+    color: #AC8F83;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #261C1A;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}

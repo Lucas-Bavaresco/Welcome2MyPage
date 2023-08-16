@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.5s;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+  color: #d21617;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+#banner {
+  background-repeat: no-repeat;
+  background-image: url("https://preview.redd.it/gpxe4npkqk781.jpg?auto=webp&s=6781961ee98077d9803b64138fa1af6bab1d7e3c");
+  background-position: 50% 50%;
+  width: 100%;
+  height: 500px;
+}
+
+#trailer-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trailer {
+  width: 50%;
+}
+
+#sinopse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.button:hover {
+    background-color: #fff;
+    columns: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/01/The-Batman.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/zoe-kravitz-as-catwoman-in-the-batman-movie-2022-wb.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+span {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactUs {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 100%;
+}
+    .costumerName {
+        color: #fff;
+        background-size: 5rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        width: 100%;
+    }
+
+    form {
+        width: 30%;
+    }
+
+    input {
+        background-color: gainsboro;
+        width: 100%;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        margin-top: 4px;
+    }
+
+    .costumerEmail {
+        color: #fff;
+        background-size: 5rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        width: 100%;
+    }
+    
+
+
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+            }
+
+    .description {
+        width: 100%;
+    }            
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+}

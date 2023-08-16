@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+/* Estilos para telas pequenas (Mobile-First) */
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móveis */
+  body {
+    background-size: contain;
+  }
+}
+
+/* Estilos para telas médias e maiores */
+@media (min-width: 768px) {
+  /* Estilos para tablets e desktops */
+}
+
+* {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  max-width: 100%;
+}
+
+#home,
+#about,
+#skills,
+#portfolio,
+#contact {
+  padding: 3.5rem 0;
+}
+
+/* .navBar {
+    
+           color: white;
+} */
+
+/* Hero Section */
+.bgTopImage {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url("images/Official-001-Hello-World-Lucas-Bavaresco.png");
+  background-size: cover;
+  background-repeat: round;
+  color: white;
+}
+
+.bgMiddleImage {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  background: url("images/Oficial-BGMiddleImage.png");
+  background-size: cover;
+  /* background-repeat: round; */
+  color: white;
+}
+
+.text-center {
+  color: white;
+}
+
+.bgDownImage {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  background: url("images/BGDownImage.png");
+  background-size: cover;
+  color: black;
+}
+
+.heroTitle {
+  font-size: 4.5 rem;
+}
+
+.heroDesc {
+  font-size: 2rem;
+}
+
+.heroText {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.aboutHeroText {
+  font-size: larger;
+}
+
+/* Imagem Sobre Mim */
+.aboutImage {
+  width: 100%;
+  border: 2px solid orangered;
+  border-style: groove;
+  border-width: 1rem;
+}
+
+.skillsText .card {
+  height: auto;
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+.skillsIcon {
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+.cardTitle {
+  text-align: center;
+}
+
+.card:hover .skillsIcon {
+  /* color: orangered; */
+  /* border-style: double;
+  border-width: medium; */
+}
+
+/* .skillsText {
+  border: 1px solid greenyellow;
+} */
+
+.skillsText:hover {
+  border: 1px groove greenyellow;
+  border-width: 1rem;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar a {
+  color: white;
+  padding: 0.5rem;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: orangered;
+  border-radius: 4px;
+}
+
+.network {
+  position: relative;
+  background: url("images/BGMiddleImage.png");
+  background-size: cover;
+  /* background-repeat: round; */
+  margin-top: 1rem;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.networkImages {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: 4px;
+  padding-top: 8px;
+  border-radius: 50%;
+  border-width: 8px;
+  border-style: groove;
+  background-color: white;
+}
+
+/* .rowPortfolio {
+  height: 0%;
+} */
+
+.bgPortfolioImage1,
+.bgPortfolioImage2,
+.bgPortfolioImage3,
+.bgPortfolioImage4,
+.bgPortfolioImage5,
+.bgPortfolioImage6,
+.bgPortfolioImage7,
+.bgPortfolioImage8 {
+  background: url("images/BGMiddleImage.png");
+  background-size: contain;
+  /* background-repeat: round; */
+  background-position: center;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+}
+
+/* .bgPortfolioImage card car {
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  color: white;
+} */
+
+#myRocketsImages img {
+  border-color: gold;
+}
+#myRadiosImages img {
+  border-color: greenyellow;
+}
+#mySatellitesImages img {
+  border-color: orangered;
+}
+
+/* .cardPorfolio:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease all;
+  color: orangered;
+  border-style: double;
+  border-width: medium;
+} */
+
+/* .rowPortfolio {
+  /* width: 50%;
+  color: white; */
+
+/* .cardBodyPortfolio {
+  background-color: white; 
+  color:black;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1rem;
+  padding: 1rem;
+} */
+
+.cardPortfolios {
+  /* width: 50%;
+  height: 100%; */
+}
+
+.bgContactImage {
+  background-size: cover;
+  background-repeat: round;
+  background-position: center;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  background: url("images/BGFooterImage-Official3.png");
+  background-repeat: round;
+  max-width: 100%;
+  color: white;
+}
+
+/* .bgContactImage footer {
+} */
+
+/* .bgPortfolioPlayground {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  background: url("images/BGFooterImage-Official.png");
+  background-size: cover;
+  color: white;
+} */
+
+.cardTitlePortfolio,
+.cardTextPortfolio {
+  /* width: 100%; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* right: 50%;
+  left: 50%; */
+  color: white;
+}
+
+.card-img-top {
+  border: 1px solid white;
+}
+
+.card-img-top:hover {
+  border: 7px groove gold;
+  cursor: pointer;
+}
+
+.ancoraButtonLink {
+  background-color: white;
+  color: blue;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.ancoraImageLink {
+}
+
+.ixt8Brand:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+/* .map:hover {
+  border-color: greenyellow; 
+} */
+
+.rowContact {
+  width: 100%;
+
+  align-items: center;
+  text-align: center;
+  /* right: 50%;
+  left: 50%; */
+}
+
+.cardBodyPortfolio {
+  align-items: center;
+  text-align: center;
+  /* width: 750px; */
+  /* right: 75%;
+  left: 75%; */
+}
+
+.contactIcon {
+  font-size: 2.5rem;
+  color: white;
+  justify-content: center;
+  padding: 0;
+}
+
+.ancoraBrandIXT8 {
+  height: 350px;
+
+  margin-bottom: 200px;
+}
+
+/* footer {
+  width: 100vw;
+  height: 5vh;
+  position: relative;
+  background: url("");
+  background-size: cover;
+  background-repeat: round;
+  padding: 50rem 0 2rem 0;
+} */
+.footerIcon {
+  font-size: 2rem;
+  color: white;
+}
+.footerIcon:hover {
+  color: orangered;
+}
+
+.ancoraFooterDev {
+  /* margin-bottom: -150px; */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+}
+
+.ancoraFooterDev:hover {
+  color: orangered;
+}
+
+.glass {
+  top: 5rem;
+  position: relative;
+  width: 200vh;
+  max-width: 100%;
+  height: 3rem;
+  /* padding: 5rem 0; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+/* .ancoraFooterDev a:hover {
+  background-color: #ddd;
+  color: orangered;
+  border-radius: 4px;
+} */
+
+.cardBodyContact {
+  color: orangered;
+}
+
+/* GLASSMORPHISMO */
+
+.cardBodyPortfolioBg {
+  height: 15rem;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+#bgTextAboutHero {
+  height: auto;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+/* Estilo para a imagem animada */
+/* Estilo para a imagem animada */
+/* Estilo para a imagem animada */
+
+.floating-image img {
+  width: 250px;
+  height: 250px;
+}
+
+.floating-image {
+  position: fixed;
+  bottom: 0; /* Inicialmente no canto esquerdo inferior */
+  left: 0; /* Inicialmente no canto esquerdo inferior */
+  animation: moveAndRotateAnimation 15s cubic-bezier(0.99, 0.75, 0.99, 0.75)
+    infinite;
+}
+
+@keyframes moveAndRotateAnimation {
+  0% {
+    bottom: -25%;
+    left: -25%;
+    transform: rotate(0deg);
+    display: block; /* Mantém a imagem visível */
+  }
+  24% {
+    bottom: 100%;
+    left: 100%;
+    transform: rotate(0deg);
+    display: block; /* Mantém a imagem visível */
+  }
+  25%,
+  49% {
+    bottom: -125%;
+    left: 125%;
+    transform: rotate(0deg);
+    display: block; /* Mantém a imagem visível */
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  51% {
+    bottom: -125%;
+    left: 125%;
+    transform: rotateY(180deg);
+    display: block; /* Mantém a imagem visível */
+  }
+  100% {
+    bottom: 100%;
+    left: 1%;
+    transform: rotateY(180deg);
+    display: block; /* Mantém a imagem visível */
+  }
+}
