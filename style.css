@@ -26,7 +26,8 @@
   padding: 3.5rem 0;
 }
 
-.container {}
+.container {
+}
 
 /* .navBar {
     
@@ -60,12 +61,12 @@
   color: white;
 }
 
-.bgDownImage {
+.bgSkillsImage {
   width: 100vw;
   max-width: 100%;
   height: auto;
   position: relative;
-  background: url("images/BGDownImage.png");
+  background: url("images/BGMiddleImage.png");
   background-size: cover;
   color: black;
 }
@@ -472,4 +473,3 @@
     display: block; /* Mantém a imagem visível */
   }
 }
-
