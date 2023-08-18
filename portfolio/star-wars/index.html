@@ -27,6 +27,7 @@
   <body>
     <section  id="homeNav">
     <header>
+      <div class="container">
       <nav class="custom-navbar">
         <ul>
           <a
@@ -47,11 +48,12 @@
           </a>
         </ul>
       </nav>
+    </div>
     </header>
   </section>
   <!-- https://lumiere-a.akamaihd.net/v1/images/g_ondisneyplus_ahsoka_characterposters_6_2324_733d4ec3.jpeg -->
   
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -80,8 +82,8 @@
       </a>
     </div>
 
-    <section  id="trailerNav">
-    <div id="trailer-container">
+    <section id="trailerNav">
+    <div id="trailer-container" class="container">
       <div class="content">
         <video controls class="trailer">
           <source
@@ -90,11 +92,10 @@
           />
           Seu navegador não possui suporte para vídeos
         </video>
-        
       </div>
       
     </div>
-    <div id="sinopse">
+    <div id="sinopse" class="container">
       <p class="description">
         Se passando após a queda do Império, 'Star Wars: Ahsoka' segue a
         antiga cavaleira Jedi Ahsoka Tano enquanto ela investiga uma ameaça
@@ -122,34 +123,22 @@
       </div>
     </div> -->
     <section  id="contactNav">
-    <footer>
+    <footer class="container">
+      <div class="row" id="rowFooter">
+        <div class="col">
       <a href="https://www.disneyplus.com/pt-br/brand/star-wars">
         <img
           style="object-fit: contain"
-          id="logo"
+          id="logoFooter"
           src="./images/star-wars-brand.jpg"
         />
       </a>
+    </div>
       <span>Todos os direitos reservados ©</span>
       <span>Desenvolvido por: Lucas Bavaresco</span>
-
-      <nav class="footer-navigation">
-        <ul class="footer-list">
-          <a href="./index.html">
-            <li>Home</li>
-          </a>
-          <a href="./contato.html">
-            <li>Contato</li>
-          </a>
-          <a href="./fotos.html">
-            <li>Fotos</li>
-          </a>
-          <a href="./comentarios.html">
-            <li>Comentários</li>
-          </a>
-        </ul>
-      </nav>
+    </div>
       </footer>
+      </section>
    <!-- Scripts JS Bottstrap -->
 <script src="script.js"></script>
 <script
@@ -157,7 +146,5 @@
   integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
   crossorigin="anonymous"
 ></script>
-
   </body>
-
 </html>
