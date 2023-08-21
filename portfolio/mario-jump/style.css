@@ -60,16 +60,16 @@
 }
 
 .clouds {
-    position: absolute;
-    width: 550px;
-    animation: cloudsAnimation 20s infinite linear;
+  position: absolute;
+  width: 550px;
+  animation: cloudsAnimation 20s infinite linear;
 }
 
 @keyframes cloudsAnimation {
-    from {
-        right: -550px;
-      }
-      to {
-        right: 100%;
-      }
+  from {
+    right: -550px;
+  }
+  to {
+    right: 100%;
+  }
 }
