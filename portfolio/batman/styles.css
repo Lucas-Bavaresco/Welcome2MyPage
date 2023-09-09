@@ -237,6 +237,7 @@ label {
 }
 
 input {
+  display: flex;
   background-color: gainsboro;
   margin-top: 1px;
   border-radius: 3px;
@@ -245,6 +246,7 @@ input {
 }
 
 textarea {
+  display: flex;
   width: 585px;
   min-height: 150px; /* Altura mínima recomendada */
   padding: 10px;
@@ -293,11 +295,6 @@ textarea {
 
   .description {
     width: 100%;
-  }
-
-  .button {
-    width: 100%;
-    margin-top: 30px;
   }
 
   .cards-content {
