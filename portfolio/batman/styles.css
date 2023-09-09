@@ -223,6 +223,11 @@ span {
   font-size: 20px;
   width: 100%;
 }
+.costumerName,
+.costumerEmail,
+.costumerMessage {
+  display: flex;
+}
 .costumerName {
   color: #fff;
   background-size: 5rem;
