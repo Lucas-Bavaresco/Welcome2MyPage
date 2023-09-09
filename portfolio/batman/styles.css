@@ -6,6 +6,7 @@
   background-color: black;
   list-style: none;
   text-decoration: none;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 header {
@@ -78,210 +79,229 @@ li:hover {
 }
 
 .description {
-    color: #fff;
-    font-size: 16px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    width: 70%;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  width: 70%;
 }
 
 .button {
-    width: 200px;
-    height: 60px;
-    background-color: #D21617;
-    color: #fff;
-    padding: 8px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .8s;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    margin-top: 25px;
-    font-family: "Kdam Thmor Pro", sans-serif;
+  width: 200px;
+  height: 60px;
+  background-color: #d21617;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .button:hover {
-    background-color: #fff;
-    columns: #000;
+  background-color: #fff;
+  columns: #000;
+}
+
+#buttonForm {
+  width: 200px;
+  height: 60px;
+  background-color: #d21617;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .actor-cards-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .cards-content {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 40px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
 }
 
 .card {
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 0 20px 10px;
-    color: #fff;
-    font-size: 17px;
-    font-family: "Kdam Thmor Pro", sans-serif;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .card:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .banner-1 {
-    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/01/The-Batman.jpg');
+  background-image: url("https://img.olhardigital.com.br/wp-content/uploads/2022/01/The-Batman.jpg");
 }
 
 .banner-2 {
-    background-image: url('https://images.hdqwalls.com/wallpapers/zoe-kravitz-as-catwoman-in-the-batman-movie-2022-wb.jpg');
+  background-image: url("https://images.hdqwalls.com/wallpapers/zoe-kravitz-as-catwoman-in-the-batman-movie-2022-wb.jpg");
 }
 
 .banner-3 {
-    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg');
+  background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg");
 }
 
 footer {
-    height: 300px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 14px;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
 }
 
 span {
-    color: #fff;
-    font-family: "Kdam Thmor Pro", sans-serif;
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .footer-navigation {
-    display: none;
+  display: none;
 }
 
 .footer-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  color: #fff;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .contactUs {
-    color: #fff;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    margin-top: 5rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+}
+.costumerName {
+  color: #fff;
+  background-size: 5rem;
+  margin-top: 3rem;
+  font-size: 16px;
+}
+
+label {
+  margin: 30px 0 0 0;
+  display: flex;
+  align-items: start;
+}
+
+input {
+  background-color: gainsboro;
+  margin-top: 1px;
+  border-radius: 3px;
+  height: 35px;
+  width: 600px;
+}
+
+textarea {
+  width: 585px;
+  min-height: 150px; /* Altura mínima recomendada */
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  resize: vertical; /* Permite redimensionamento vertical */
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer-navigation {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #banner {
+    background-position: 40%;
+  }
+
+  #trailer-container {
+    width: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
+  }
+
+  .content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trailer {
     width: 100%;
-}
-    .costumerName {
-        color: #fff;
-        background-size: 5rem;
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 16px;
-        font-family: "Kdam Thmor Pro", sans-serif;
-        width: 100%;
-    }
+  }
 
-    form {
-        width: 30%;
-    }
+  #sinopse {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    input {
-        background-color: gainsboro;
-        width: 100%;
-        font-family: "Kdam Thmor Pro", sans-serif;
-        margin-top: 4px;
-    }
+  .description {
+    width: 100%;
+  }
 
-    .costumerEmail {
-        color: #fff;
-        background-size: 5rem;
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 16px;
-        font-family: "Kdam Thmor Pro", sans-serif;
-        width: 100%;
-    }
-    
+  .button {
+    width: 100%;
+    margin-top: 30px;
+  }
 
-
-
-@media(max-width: 768px) {
-    .footer-navigation {
-        display: block;
-    }
-
-    nav {
-        display: none;
-    }
-
-    #banner {
-        background-position: 40%;
-    }
-
-    #trailer-container {
-        width: 100%;
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .content {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .trailer {
-        width: 100%;
-    }
-
-    #sinopse {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-            }
-
-    .description {
-        width: 100%;
-    }            
-
-    .button {
-        width: 100%;
-        margin-top: 30px;
-    }
-
-    .cards-content {
-        grid-template-columns: 1fr;
-        margin-top: 150px;
-    }
-
+  .cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
 }

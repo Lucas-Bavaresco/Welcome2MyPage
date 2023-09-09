@@ -30,23 +30,37 @@
     </nav>
   </header>
 
-  <div class="contactUs">
-    <h1>Contate conosco:</h1>
-  </div>
+  <div class="contact-container">
+    <div class="contactUs">
+      <h1>Contate conosco:</h1>
+    </div>
 
-  <div class="costumerName">
-    <form> <!-- ? Formulário de Contato do Cliente -->
-      <label>Nome completo:</label>
-      <input type="text" id="txtName" />
-    </form>
-  </div>
+    <div class="costumerName">
+      <form> <!-- ? Formulário de Contato do Cliente -->
+        <label>Nome completo:</label>
+        
+        <input type="text" id="txtName" placeholder="João da Silva Santos" required />
+      </form>
+    </div>
 
 
-  <div class="costumerEmail">
-    <form>
-      <label>E-mail:</label>
-      <input type="email" id="costemail" />
-    </form>
+    <div class="costumerEmail">
+      <form>
+        <label>E-mail:</label>
+        
+        <input type="email" id="costemail" placeholder="email@domain.com" required />
+      </form>
+    </div>
+
+    <div class="costumerMessage">
+      <form>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea>
+      </form>
+    </div>
+
+    <button id="buttonForm">Enviar</button>
+
   </div>
 
 
